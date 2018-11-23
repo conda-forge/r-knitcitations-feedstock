@@ -14,9 +14,8 @@ Summary: Provides the ability to create dynamic citations in which the bibliogra
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-knitcitations-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-knitcitations-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-knitcitations-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-knitcitations-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-knitcitations-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-knitcitations-feedstock)
 
 Current release info
 ====================
