@@ -52,15 +52,10 @@ about:
     'markdown' format, and can provide outputs for web-based authoring such as linked
     text for inline citations.  Cite using a 'DOI', URL, or 'bibtex' file key.  See
     the package URL for details.
+  license_file: LICENSE
   license_family: MIT
 
 extra:
    recipe-maintainers:
      - conda-forge/r
      - vivekbhr
-     - johanneskoester
-     - bgruening
-     - daler
-     - jdblischak
-     - cbrueffer
-     - dbast
