@@ -1,4 +1,4 @@
-{% set version = '1.0.8' %}
+{% set version = "1.0.10" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/knitcitations_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/knitcitations/knitcitations_{{ version }}.tar.gz
-  sha256: 3b366d6b7cd02998d451f820a7883e6c5c315391a5301112a80c8b725969081e
+  sha256: c5b68dd24550100a7cb99f441b12fdd6d5bb9176c7fdbf4b11a04ff843c6e334
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
 
   rpaths:
     - lib/R/lib/
