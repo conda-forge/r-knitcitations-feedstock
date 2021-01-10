@@ -1,4 +1,4 @@
-{% set version = "1.0.10" %}
+{% set version = "1.0.12" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/knitcitations_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/knitcitations/knitcitations_{{ version }}.tar.gz
-  sha256: c5b68dd24550100a7cb99f441b12fdd6d5bb9176c7fdbf4b11a04ff843c6e334
+  sha256: 584858d132f02aa9d9f5128a25c2b0fd46a08d77be5a85f302fb060325a2f7b0
 
 build:
   noarch: generic
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
 
   rpaths:
     - lib/R/lib/
@@ -46,16 +46,12 @@ test:
 about:
   home: https://github.com/cboettig/knitcitations
   license: MIT
-  summary: Provides the ability to create dynamic citations in which the bibliographic information
-    is pulled from the web rather than having to be entered into a local database such
-    as 'bibtex' ahead of time. The package is primarily aimed at authoring in the R
-    'markdown' format, and can provide outputs for web-based authoring such as linked
-    text for inline citations.  Cite using a 'DOI', URL, or 'bibtex' file key.  See
-    the package URL for details.
+  summary: Provides the ability to create dynamic citations in which the bibliographic information is pulled from the web rather than having to be entered into a local database such as 'bibtex' ahead of time. The package is primarily aimed at authoring in the R 'markdown' format, and can provide outputs for web-based authoring
+    such as linked text for inline citations.  Cite using a 'DOI', URL, or 'bibtex' file key.  See the package URL for details.
   license_file: LICENSE
   license_family: MIT
 
 extra:
-   recipe-maintainers:
-     - conda-forge/r
-     - vivekbhr
+  recipe-maintainers:
+    - conda-forge/r
+    - vivekbhr
