@@ -1,11 +1,11 @@
-About r-knitcitations
-=====================
+About r-knitcitations-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-knitcitations-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cboettig/knitcitations
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-knitcitations-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides the ability to create dynamic citations in which the bibliographic information is pulled from the web rather than having to be entered into a local database such as 'bibtex' ahead of time. The package is primarily aimed at authoring in the R 'markdown' format, and can provide outputs for web-based authoring such as linked text for inline citations.  Cite using a 'DOI', URL, or 'bibtex' file key.  See the package URL for details.
 
